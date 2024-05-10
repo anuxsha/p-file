@@ -1,1 +1,66 @@
-good eve
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolates Galore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+        }
+        .chocolate {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .chocolate img {
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            height: auto;
+        }
+        .chocolate h2 {
+            text-align: center;
+            color: #333;
+        }
+        .chocolate p {
+            text-align: center;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Chocolates Galore</h1>
+        <div class="chocolate">
+            <img src="https://t3.ftcdn.net/jpg/05/64/72/88/360_F_564728868_RBWkVZYrXIKYnkpew0ATS1ZAlj7SCC6k.jpg" alt="Chocolate 1">
+            <h2>Milk Chocolate</h2>
+            <p>A smooth and creamy milk chocolate bar.</p>
+        </div>
+        <div class="chocolate">
+            <img src="https://media.istockphoto.com/id/1276645382/photo/chocolate-assortment-background-top-view-of-different-kinds-of-chocolate.jpg?s=612x612&w=0&k=20&c=VSi2enumIt0aHCKTu4_yzvAFIm7DFGdNXZii0mj9iYs=" alt="Chocolate 2">
+            <h2>Dark Chocolate</h2>
+            <p>Intense and rich dark chocolate with a hint of bitterness.</p>
+        </div>
+        <div class="chocolate">
+            <img src="https://t3.ftcdn.net/jpg/06/95/23/22/360_F_695232240_jIlgCF9prfIHjcOTISGp85Kq8epvlNGA.jpg" alt="Chocolate 3">
+            <h2>White Chocolate</h2>
+            <p>Sweet and velvety white chocolate made with cocoa butter.</p>
+        </div>
+    </div>
+</body>
+</html>
